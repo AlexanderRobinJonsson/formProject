@@ -14,9 +14,20 @@
     </header>
     <hr>
     <body>
-        <form action="" method="post">
+        <form action="" method="POST">
             <fieldset>
                 <legend>Login</legend>
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required autocomplete="username">
+                <br>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required autocomplete="current-password">
+                <br>
+                <label for="remember">Remeber Me</label>
+                <input type="checkbox" id="remember" name="remember">
+                <br>
+                <input type="submit" value="Login">
+                <input type="reset" value="Reset">
             </fieldset>
         </form>
     </body>
